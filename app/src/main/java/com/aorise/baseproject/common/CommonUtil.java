@@ -22,8 +22,8 @@ import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 
 /**
- * 作者：李世林 Administrator on 2018/7/3 11:42
- * 邮箱：1871907207@qq.com
+ * Created by Tuliyuan.
+ * Date: 2019/6/28.
  */
 public class CommonUtil {
     // TODO: 2018/7/3 这是一个公共方法类   用于存放类似图片加载器之类的工具

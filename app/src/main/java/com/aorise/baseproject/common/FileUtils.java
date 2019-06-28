@@ -15,7 +15,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Created by Administrator on 2018/9/12.
+ * Created by Tuliyuan.
+ * Date: 2019/6/28.
  */
 
 public class FileUtils {

@@ -26,11 +26,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import aorise.com.food_safety_app.network.BuildConfig;
-
 
 /**
- * Created by Admin on 2018/6/26.
+ * Created by Tuliyuan.
+ * Date: 2019/6/28.
  */
 
 public class Utils {
@@ -132,7 +131,7 @@ public class Utils {
     /**
      * 日期格式字符串转换成时间戳
      *
-     * @param date   字符串日期
+     * @param
      * @param format 如：yyyy-MM-dd HH:mm:ss
      * @return
      */
@@ -247,38 +246,7 @@ public class Utils {
     }
 
 
-    public static String autoWaringState(int state, int lockStatus) {
-        String stateStr = "";
-        switch (state) {
-            case BuildConfig.STATUS_UNEXPIRE:
-                stateStr = "快到期";
-                break;
-            case BuildConfig.STATUS_EXPIRE:
-                stateStr = "已过期";
-                break;
-        }
-        switch (lockStatus) {
-            case BuildConfig.STATUS_LOCK:
-                stateStr = stateStr + " 锁定";
-                break;
-            case BuildConfig.STATUS_LOCK_NORMAL:
-                break;
-        }
-        return stateStr;
-    }
 
-    public static String autoWaringColor(int state) {
-        String color = "#7287f0";
-        switch (state) {
-            case BuildConfig.STATUS_UNEXPIRE:
-                color = "#f77f98";
-                break;
-            case BuildConfig.STATUS_EXPIRE:
-                color = "#7287f0";
-                break;
-        }
-        return color;
-    }
 
     /**
      * 验证非空

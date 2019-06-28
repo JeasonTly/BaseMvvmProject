@@ -1,9 +1,8 @@
 package com.aorise.baseproject.common;
 
 /**
- * PROJECT_NAME:food_safety_mgt_app.
- * Created by YangXun.
- * Date: 2019/2/20.
+ * Created by Tuliyuan.
+ * Date: 2019/6/28.
  */
 
 import android.annotation.SuppressLint;

@@ -3,6 +3,11 @@ package com.aorise.baseproject.common;
 import android.os.Handler;
 import android.os.Looper;
 
+/**
+ * Created by Tuliyuan.
+ * Date: 2019/6/28.
+ */
+
 public class HandlerUtil {
     public static final Handler HANDLER = new Handler(Looper.getMainLooper());
 

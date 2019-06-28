@@ -7,6 +7,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * Created by Tuliyuan.
+ * Date: 2019/6/28.
+ */
+
 public class OSUtils {
 
     public static final String ROM_MIUI = "MIUI";
